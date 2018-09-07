@@ -96,6 +96,9 @@
                                             <constraint firstAttribute="height" constant="30" id="Zdb-49-tuY"/>
                                         </constraints>
                                         <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="sendButtonPressed:" destination="afj-i0-vC9" eventType="touchUpInside" id="esC-5d-K65"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Message" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y6V-by-aa4">
                                         <rect key="frame" x="9" y="8" width="304" height="30"/>
@@ -262,6 +265,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="a55-3r-MHk"/>
+        <segue reference="wtc-vr-cYo"/>
     </inferredMetricsTieBreakers>
 </document>
